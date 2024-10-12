@@ -32,6 +32,14 @@ body {
   border-radius: 99px;
 }
 
+.headings {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -49,6 +57,8 @@ h1 {
 
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 .hero {
@@ -76,6 +86,56 @@ p {
   color: white;
   border-radius: 4px;
   font-size: 27px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+/* Projects Page */
+.projects {
+  margin-bottom: 60px;
+}
+
+.projects h3 {
+  font-weight: normal;
+}
+
+.container {
+  text-align: center;
+}
+
+#description {
+  padding-top: 30%;
+  padding-bottom: 50%;
+}
+
+@media (max-width: 600px) {
+  #description {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+#vg {
+  width: 90%;
+  height: 65%;
+}
+
+#vg,
+#weather,
+#clock,
+#poem {
+  width: 700px;
+  height: 600px;
+}
+
+.vg-description {
+}
+
+.btn-vg {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
