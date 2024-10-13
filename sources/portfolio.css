@@ -132,6 +132,7 @@ p {
 
 .about-section {
   padding: 160px 20px;
+  width: 100%;
 }
 
 .about-section-content {
@@ -177,6 +178,7 @@ p {
 
 .container {
   text-align: center;
+  width: 100%;
 }
 
 #container {
@@ -221,6 +223,9 @@ p {
 }
 
 /* Work Page */
+.content-container {
+  width: 100%;
+}
 
 .content {
   margin-top: 200px;
@@ -231,6 +236,7 @@ p {
 
 .contents-container {
   padding: 60px 20px;
+  width: 100%;
 }
 
 .contents {
